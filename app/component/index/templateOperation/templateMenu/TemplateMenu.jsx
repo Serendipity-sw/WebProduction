@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../../public/css/templateOperation/templateMenu/templateMenu.pcss'
 import style from '../../../../public/css/templateOperation/templateMenu/templateMenu.pcss.json'
 
-class TemplateMenu extends React.Component{
+class TemplateMenu extends React.Component {
     constructor(props) {
         super(props);
 
@@ -10,7 +10,7 @@ class TemplateMenu extends React.Component{
 
     render() {
         return (
-            <div>
+            <div className={style.menuArea}>
 
             </div>
         );
