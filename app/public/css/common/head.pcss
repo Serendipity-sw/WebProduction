@@ -1,0 +1,64 @@
+
+header {
+  border-bottom: 0.5Px solid #ccd5db;
+  height: var(--headerHeight);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btnArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: var(--headerHeight);
+    padding: 0 15Px;
+    .icon {
+      color:black
+    }
+    .contentIcon {
+    }
+    .pictureIcon {
+    }
+    .backgroundIcon {
+    }
+    .musicIcon {
+    }
+    .shapeIcon {
+    }
+    .componentIcon {
+    }
+    .formIcon {
+    }
+    .specialEffectsIcon {
+    }
+    .content{
+      color: black;
+    }
+    &:hover{
+      background-color: #218efc;
+      *{
+        color: white;
+      }
+    }
+  }
+
+  .operatingArea {
+    position: absolute;
+    top: 0;
+    right: @top;
+    height: var(--headerHeight);
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-right: 7Px;
+    }
+    .exitBtn{
+      background-color: #666666;
+      color: white;
+    }
+  }
+}
