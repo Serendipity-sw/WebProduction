@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../public/css/cssVariable.pcss'
 import '../../public/css/common.pcss'
 import '../../public/css/iconFont.pcss'
 import style from '../../public/css/common.pcss.json'

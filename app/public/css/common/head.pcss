@@ -1,4 +1,4 @@
-
+@import "../cssVariable.pcss";
 header {
   border-bottom: 0.5Px solid #ccd5db;
   height: var(--headerHeight);
@@ -39,10 +39,7 @@ header {
       color: black;
     }
     &:hover{
-      background-color: #218efc;
-      *{
-        color: white;
-      }
+      @include menuRowSelect;
     }
   }
 

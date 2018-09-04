@@ -1,3 +1,28 @@
-.menuArea{
+@import "../../cssVariable.pcss";
+.menuArea {
+  height: 100%;
+  background-color: #fafafa;
+  width: 85Px;
+  padding-top: var(--headerHeight);
 
+  .menuRows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 13Px 0;
+    cursor: pointer;
+    * {
+      color: black;
+    }
+    .iconStyle {
+      font-size: 20Px;
+    }
+    &.select {
+      @include menuRowSelect;
+    }
+    &:hover {
+      @include menuRowSelect;
+    }
+  }
 }
