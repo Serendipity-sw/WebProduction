@@ -3,6 +3,7 @@ import '../../public/css/common/head.pcss'
 import iconStyle from '../../public/css/iconFont.pcss.json'
 import style from '../../public/css/common/head.pcss.json'
 import {Button} from "antd";
+import IconFont from "./IconFont";
 
 class Header extends React.Component {
     constructor(props) {
@@ -59,10 +60,7 @@ class Header extends React.Component {
                 {
                     this.state.btnAreaList.map((item, index) =>
                         <div className={style.btnArea} key={index}>
-                            <svg className={[iconStyle.icon, style.icon, style.iconStyle].join(' ')}
-                                 aria-hidden="true">
-                                <use xlinkHref={"#"+item.iconName}></use>
-                            </svg>
+                            <IconFont classArray={[style.icon, style.iconStyle]} iconName={item.iconName}/>
                             <span className={style.content}>{item.btnName}</span>
                         </div>
                     )
