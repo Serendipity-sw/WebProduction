@@ -13,6 +13,9 @@ class TemplateOperation extends React.Component {
         return (
             <div className={style.templateOperation}>
                 <TemplateMenu/>
+                <div className={style.operationArea}>
+
+                </div>
             </div>
         );
     }

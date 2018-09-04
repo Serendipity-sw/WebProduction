@@ -2,8 +2,9 @@
 .menuArea {
   height: 100%;
   background-color: #fafafa;
-  width: 85Px;
+  width: var(--webMenuAreaWidth);
   padding-top: var(--headerHeight);
+  float: left;
 
   .menuRows {
     display: flex;
@@ -15,6 +16,7 @@
     outline: none;
     * {
       color: black;
+      font-size: 12Px;
     }
     .iconStyle {
       font-size: 20Px;
