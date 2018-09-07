@@ -1,7 +1,6 @@
 import React from 'react'
-import '../../public/css/common/head.pcss'
-import iconStyle from '../../public/css/iconFont.pcss.json'
-import style from '../../public/css/common/head.pcss.json'
+import '@/css/common/head.pcss'
+import style from '@/css/common/head.pcss.json'
 import {Button} from "antd";
 import IconFont from "./IconFont";
 

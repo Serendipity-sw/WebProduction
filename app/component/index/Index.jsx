@@ -1,7 +1,7 @@
 import React from 'react'
-import '../../public/css/common.pcss'
-import '../../public/css/iconFont.pcss'
-import style from '../../public/css/common.pcss.json'
+import '@/css/common.pcss'
+import '@/css/iconFont.pcss'
+import style from '@/css/common.pcss.json'
 import Header from "../common/Header"
 import TemplateOperation from "./templateOperation/TemplateOperation";
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../../public/css/templateOperation/templateOperation.pcss'
-import style from '../../../public/css/templateOperation/templateOperation.pcss.json'
+import '@/css/templateOperation/templateOperation.pcss'
+import style from '@/css/templateOperation/templateOperation.pcss.json'
 import TemplateMenu from "./templateMenu/TemplateMenu";
 import WebContentEditArea from "./webContentEditArea/WebContentEditArea";
 import WebManagement from "./webManagement/WebManagement";

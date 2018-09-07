@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../../../public/css/templateOperation/webContentEditArea/webContentEditArea.pcss'
-import style from '../../../../public/css/templateOperation/webContentEditArea/webContentEditArea.pcss.json'
+import '@/css/templateOperation/webContentEditArea/webContentEditArea.pcss'
+import style from '@/css/templateOperation/webContentEditArea/webContentEditArea.pcss.json'
 
 class WebContentEditArea extends React.Component {
     constructor(props) {

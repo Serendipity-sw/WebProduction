@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../../../public/css/templateOperation/webManagement/webManagement.pcss'
-import style from '../../../../public/css/templateOperation/webManagement/webManagement.pcss.json'
+import '@/css/templateOperation/webManagement/webManagement.pcss'
+import style from '@/css/templateOperation/webManagement/webManagement.pcss.json'
 import {Tabs} from 'antd'
 
 const TabPane = Tabs.TabPane

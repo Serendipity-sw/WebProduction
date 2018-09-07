@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../../../public/css/templateOperation/templateMenu/templateMenu.pcss'
-import style from '../../../../public/css/templateOperation/templateMenu/templateMenu.pcss.json'
+import '@/css/templateOperation/templateMenu/templateMenu.pcss'
+import style from '@/css/templateOperation/templateMenu/templateMenu.pcss.json'
 import IconFont from "../../../common/IconFont";
 
 class TemplateMenu extends React.Component {

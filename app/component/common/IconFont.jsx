@@ -1,5 +1,5 @@
 import React from 'react'
-import iconStyle from '../../public/css/iconFont.pcss.json'
+import iconStyle from '@/css/iconFont.pcss.json'
 
 class IconFont extends React.Component{
 
