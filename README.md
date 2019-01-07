@@ -1,5 +1,5 @@
 # 脚手架文档
-[reactFrameWork](https://github.com/swgloomy/reactFrameWork)
+[generator-reactFrameWork](https://github.com/swgloomy/generator-reactFrameWork/tree/master/app/templates)
 
 ## 项目中字体图标
 
